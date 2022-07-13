@@ -9,7 +9,7 @@ resources:
 #- argocd/instances/ibm-apic-gateway-analytics-instance.yaml
 #- argocd/operators/ibm-aspera-operator.yaml
 #- argocd/operators/ibm-assetrepository-operator.yaml
-- argocd/operators/ibm-cp4i-operators.yaml
+#- argocd/operators/ibm-cp4i-operators.yaml
 #- argocd/operators/ibm-datapower-operator.yaml
 #- argocd/operators/ibm-eventstreams-operator.yaml
 #- argocd/instances/ibm-eventstreams-instance.yaml
@@ -87,7 +87,7 @@ resources:
 #- argocd/instances/sonarqube.yaml
 #- argocd/instances/pact-broker.yaml
 # In OCP 4.7+ we need to install openshift-pipelines and possibly privileged scc to the pipeline serviceaccount
-- argocd/operators/openshift-pipelines.yaml
+#- argocd/operators/openshift-pipelines.yaml
 
 # Serverless
 #- argocd/operators/openshift-serverless.yaml
